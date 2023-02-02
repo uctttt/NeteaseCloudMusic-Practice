@@ -1,0 +1,17 @@
+/* 
+  通用css文件
+*/
+
+* {
+    font-family: "microsoft yahei";
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+    text-decoration: none;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    transition: all 1s;
+    animation-fill-mode: both;
+}

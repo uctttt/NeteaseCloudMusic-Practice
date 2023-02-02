@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <link rel="shortcut icon" href="./favicon.ico">
+
+    <link rel="stylesheet" href="./libs/font_3723452_hnyee1nmpgd/iconfont.css">
+    <link rel="stylesheet" href="./libs/normalize.css-master/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <script src="./libs/jquery-3.5.1/jquery-3.5.1.js"></script>
+    <script src="./js/index.js"></script>
+
+    <title>网易云音乐</title>
+</head>
+
+<body>
+    <audio id='songPlayer' src=""></audio>
+    <div id="mainPage">
+        <div id="head" class="clearfix">
+            <div id="top_bar">
+            </div>
+            <div id="Menu">
+                <span class="checked" id="rec">推荐音乐</span>
+                <span id="hot">热歌榜</span>
+                <span id="ser">搜索</span>
+            </div>
+        </div>
+        <div class="blank" style="height: 7.8125rem;width:100%;"></div>
+        <div id="count_recommendsongs">
+            <div class="leftText ">编辑推荐</div>
+            <div id="recommend_songs">
+                <ul>
+                </ul>
+            </div>
+            <div class="leftText">最新音乐</div>
+            <div id="new_songs">
+                <ul>
+
+                </ul>
+            </div>
+            <div id="foot">
+                <div id="foot_Logo">
+                </div>
+                <div id="foot_openApp">打开APP，发现更多好音乐 ></div>
+                <div id="foot_copyRight">网易公司版权所有©1997-2022 杭州乐读科技有限公司运营</div>
+            </div>
+        </div>
+        <div id="count_hotsongs">
+            <div class="hotSongs_head">
+                <div class="hotSongs_title"></div>
+                <div class="hotSongs_date"></div>
+            </div>
+            <div class="blank" style="height: 21.9vh;;width:100%;"></div>
+
+            <div id="hotSongs_content">
+                <ul id="hotSongs_list"></ul>
+            </div>
+        </div>
+        <div id="count_search">
+            <div id="searchInp">
+                <input type="text" name="" id="inputPlace" placeholder="搜索歌曲、歌手、专辑">
+                <i class="clear"></i>
+                <div class="recWords">
+                    <div class="title"></div>
+                    <ul class="recWordsList">
+                    </ul>
+                </div>
+            </div>
+            <div id="hotSearchWords">
+                <div class="title">热门搜索</div>
+                <div class="hotWordsList">
+                </div>
+            </div>
+            <div class="resultList">
+
+            </div>
+        </div>
+    </div>
+    <div id="songsListPage">
+    </div>
+    <div id="musicPlayPage">
+    </div>
+</body>
+
+</html>
