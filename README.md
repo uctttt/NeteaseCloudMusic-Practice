@@ -9,10 +9,24 @@
 
 项目预览：
 
-推荐专辑与最新歌曲：
+推荐歌单与最新歌曲：
+
 ![输入图片说明](%20previewIMG/%20preview-suggestPage.png)
 
-
+歌单界面：
+![输入图片说明](%20previewIMG/preview-songsList.png)
 
 每日热歌榜单：
+
 ![输入图片说明](%20previewIMG/preview-hotSongsPage.png)
+
+搜索界面：
+
+![输入图片说明](%20previewIMG/preview-searchPage.png)
+
+搜索词语关联：
+![输入图片说明](%20previewIMG/preview-searchPage-inSearch.png)
+
+搜索结果：
+![输入图片说明](%20previewIMG/preview-searchPage-result.png)
+
