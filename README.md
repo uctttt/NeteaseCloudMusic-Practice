@@ -5,5 +5,14 @@
 
 项目使用了 **jQuery** 、 **Normalize.css** 与 **iconfont** 
 
+后端Api源码已包含于libs/API/NeteaseCloudMusicApi-master中
+
+项目预览：
+
+推荐专辑与最新歌曲：
+![输入图片说明](%20previewIMG/%20preview-suggestPage.png)
 
 
+
+每日热歌榜单：
+![输入图片说明](%20previewIMG/preview-hotSongsPage.png)
